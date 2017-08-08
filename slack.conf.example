@@ -1,0 +1,4 @@
+alert:
+  - slack
+slack_webhook_url: 'https://'
+slack_username_override: AMAM Alerts
