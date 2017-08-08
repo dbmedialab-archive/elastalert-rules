@@ -1,0 +1,14 @@
+name: DB Spike
+type: spike
+threshold_cur: 5
+timeframe:
+  minutes: 1
+spike_height: 2
+spike_type: down
+filter:
+  - query:
+      query_string:
+        query: 'site.keyword: "dagbladet.no"'
+  - type:
+      value: viewability
+import: '../general.conf'
