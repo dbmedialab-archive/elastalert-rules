@@ -1,4 +1,4 @@
-name: Dinside Spike
+name: DB Spike
 type: spike
 threshold_cur: 5
 timeframe:
@@ -8,7 +8,7 @@ spike_type: down
 filter:
   - query:
       query_string:
-        query: 'site.keyword: "dinside.no"'
+        query: 'site.keyword: "dagbladet.no"'
   - type:
       value: viewability
-import: '../general.conf'
+import: 'general.conf'

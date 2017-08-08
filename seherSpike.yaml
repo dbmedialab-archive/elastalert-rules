@@ -11,4 +11,4 @@ filter:
         query: 'site.keyword: "seher.no"'
   - type:
       value: viewability
-import: '../general.conf'
+import: 'general.conf'

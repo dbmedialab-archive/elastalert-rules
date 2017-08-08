@@ -1,4 +1,4 @@
-name: Topp Spike
+name: Dinside Spike
 type: spike
 threshold_cur: 5
 timeframe:
@@ -8,7 +8,7 @@ spike_type: down
 filter:
   - query:
       query_string:
-        query: 'site.keyword: "topp.no"'
+        query: 'site.keyword: "dinside.no"'
   - type:
       value: viewability
-import: '../general.conf'
+import: 'general.conf'

@@ -1,4 +1,4 @@
-name: Sol Spike
+name: Topp Spike
 type: spike
 threshold_cur: 5
 timeframe:
@@ -8,7 +8,7 @@ spike_type: down
 filter:
   - query:
       query_string:
-        query: 'site.keyword: "sol.no"'
+        query: 'site.keyword: "topp.no"'
   - type:
       value: viewability
-import: '../general.conf'
+import: 'general.conf'
